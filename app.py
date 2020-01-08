@@ -289,7 +289,7 @@ app.layout = html.Div(children=[
         html.Div(children=[
             
             html.P([html.A(['github: prince381'],
-                           href='https://github.com/prince381',
+                           href='https://github.com/prince381/tweet_analysis',
                            style={'color':'white',
                                    'margin-left':12,
                                    'margin-right':12,
