@@ -1,0 +1,15 @@
+dash==1.0.2
+dash-renderer==1.0.0
+dash-html-components==1.0.0
+dash-core-components==1.0.0
+flask_caching==1.7.2
+plotly==3.10.0
+gunicorn==19.9.0
+dash-table==4.0.2
+numpy==1.16.4
+pandas==0.24.2
+textblob==0.15.3
+requests==2.22.0
+bs4==4.7.1
+dateutil==2.8.0
+json==2.0.9
