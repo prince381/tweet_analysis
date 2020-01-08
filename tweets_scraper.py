@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 from textblob import TextBlob
 from time import sleep
-from dateutil import parser
 import json
 from stopwords import final_stopwords
 
