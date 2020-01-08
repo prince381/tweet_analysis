@@ -143,7 +143,6 @@ def scrape_data(html_list):
             month = time_list[4]
             year = time_list[-1][0:4]
             fulldate = '{} {} {} {}'.format(day,month,year,time)
-            fulldate = parser.parse(fulldate)
             # append the results in the date_time list
             date_time.append(fulldate)
 
@@ -213,6 +212,7 @@ def scrape_data(html_list):
     tweet_df = pd.DataFrame({'date':date_time,'tweet':texts,'sentiment_score':sentimnt_score,
                             'sentiment':sentimnt_type,'retweets':retweets,
                             'replies':replies,'likes':fav_counts})
+    tweet_df.date = pd.to_datetime(tweet_df.date)
 
     return tweet_df
 
