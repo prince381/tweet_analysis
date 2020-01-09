@@ -948,7 +948,7 @@ def tweet_statistics(df):
     avg_likes = df['likes'].median()
     avg_retweets = df['retweets'].median()
     avg_replies = df['replies'].median()
-    return int(avg_likes),int(avg_retweets),int(avg_replies)
+    return avg_likes,avg_retweets,avg_replies
 
 
 
