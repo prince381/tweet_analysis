@@ -7,6 +7,10 @@ import plotly as py
 import plotly.graph_objs as go
 import pandas as pd
 import numpy as np
+import requests
+from bs4 import BeautifulSoup as bs
+from time import sleep
+import json
 from tweets_scraper import twitter_page_html,scrape_data
 from textblob import TextBlob
 
