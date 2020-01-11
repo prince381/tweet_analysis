@@ -27,7 +27,7 @@ negative or neutral.
 
 “ To those who have not developed the skill, computer programming can seem like a kind of magic. If programming is magic, then web 
 scraping is wizardry; that is, the application of magic for particularly impressive and useful — yet surprisingly effortless — feats. “    
-                    Ryan Mitchell – Collecting data from the modern web
+                    Ryan Mitchell
                     
 
 ## What is Web Scraping ?
@@ -45,3 +45,27 @@ other things), web scrapers are excellent at gathering and processing large amou
 one page at a time through the narrow window of a monitor, you can view databases spanning thousands or even millions of pages at once.
 
 Cited from: Ryan Mitchell – Collecting data from the modern web, O’Rielly Publication
+
+# Run the app locally on your PC.
+
+To get the app to run on your local computer,I suggest you install git and create a separate virtual environment running python3 for this app and install all of the required dependencies there.Run in the terminal/command prompt.
+
+install git on linux
+![](https://gist.github.com/prince381/f4a8d93b90d7887243d1f1a48e1cb2a6.js)
+
+or dowmload the latest version of ![Git for Windows installer](https://gitforwindows.org) and ![Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
+
+configure your Git username and email using the following commands.
+![](https://gist.github.com/prince381/90f0eb758d65a45350c5dd2413834826.js)
+
+clone this project repository and create a separate virtual environment.
+![](https://gist.github.com/prince381/b0122bf4663f8c294cf39eed58b854fc.js)
+
+To install all of the required packages to this environment,simply run
+![](https://gist.github.com/prince381/6bba4116b84a1ba4afdc154ee51dbf90.js)
+and all the required pip packages,will be installed,and the app will be able to run.
+
+Run this app locally by
+![](https://gist.github.com/prince381/df581f75d6615c8778b84ebde34fe417.js)
+
+Open ![http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
