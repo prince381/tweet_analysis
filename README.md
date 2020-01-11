@@ -51,45 +51,59 @@ Cited from: Ryan Mitchell – Collecting data from the modern web, O’Rielly Pu
 To get the app to run on your local computer,I suggest you install git and create a separate virtual environment running python3 for this app and install all of the required dependencies there.Run in the terminal/command prompt.
 
 install git on linux
-'''
-$ sudo apt-get update
-$ sudo apt-get install git
-'''
+<html>
+  <code>
+    $ sudo apt-get update
+    $ sudo apt-get install git
+  </code>
+</html>
 
 or dowmload the latest version of ![Git for Windows installer](https://gitforwindows.org) and ![Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
 
 configure your Git username and email using the following commands.
-'''
-git config --global user.name "YOUR USERNAME"
-git config --global user.email "YOUR EMAIL"
-'''
+<html>
+  <code>
+    git config --global user.name "YOUR USERNAME"
+    git config --global user.email "YOUR EMAIL"
+  </code>
+</html>
 
 clone this project repository and create a separate virtual environment.
-'''
-git clone https://github.com/prince381/tweet_analysis.git
-cd tweet_analysis
-python3 -m virtualenv venv
-'''
+<html>
+  <code>
+    git clone https://github.com/prince381/tweet_analysis.git
+    cd tweet_analysis
+    python3 -m virtualenv venv
+  </code>
+</html>
 
 In UNIX systems:
-'''
-source venv/bin/activate
-'''
+<html>
+  <code>
+    source venv/bin/activate
+  </code>
+</html>
 
 In windows:
-'''
-venv\Scripts\activate
-'''
+<html>
+  <code>
+  venv\Scripts\activate
+  </code>
+</html>
 
 To install all of the required packages to this environment,simply run
-'''
-pip install -r requirements.txt
-'''
+<html>
+  <code>
+    pip install -r requirements.txt
+  </code>
+</html>
 and all the required pip packages,will be installed,and the app will be able to run.
 
 Run this app locally by
-'''
-python app.py
-'''
+<html>
+  <code>
+    python app.py
+  </code>
+</html>
 
 Open ![http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
