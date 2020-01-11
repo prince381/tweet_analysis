@@ -268,7 +268,7 @@ app.layout = html.Div(children=[
         
         html.Div(children=[
             
-            html.P([html.A(['gmail: powusu381@gmail.com'],
+            html.P([html.A(['email: powusu381@gmail.com'],
                               href='powusu381@gmail.com',
                              style={'color':'white',
                                    'margin-left':'5px',
@@ -286,7 +286,7 @@ app.layout = html.Div(children=[
         html.Div(children=[
             
             html.P([html.A(['github: prince381'],
-                           href='https://github.com/prince381',
+                           href='https://github.com/prince381/tweet_analysis',
                            style={'color':'white',
                                    'margin-left':'5px',
                                    'margin-right':'5px'})],
