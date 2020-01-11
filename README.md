@@ -64,15 +64,21 @@ or dowmload the latest version of [Git for Windows installer](https://gitforwind
 configure your Git username and email using the following commands:
 
 > git config --global user.name "YOUR USERNAME"
+
 ...
+
 > git config --global user.email "YOUR EMAIL"
 
 clone this project repository and create a separate virtual environment:
 
 > git clone https://github.com/prince381/tweet_analysis.git
+
 ...
+
 > cd tweet_analysis
+
 ...
+
 > python3 -m virtualenv venv
 
 
