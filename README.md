@@ -51,7 +51,7 @@ Cited from: Ryan Mitchell – Collecting data from the modern web, O’Rielly Pu
 To get the app to run on your local computer,I suggest you install git and create a separate virtual environment running python3 for this app and install all of the required dependencies there.Run in the terminal/command prompt.
 
 install git on linux
-![](https://gist.github.com/prince381/f4a8d93b90d7887243d1f1a48e1cb2a6.js)
+<script src="https://gist.github.com/prince381/f4a8d93b90d7887243d1f1a48e1cb2a6.js"></script>
 
 or dowmload the latest version of ![Git for Windows installer](https://gitforwindows.org) and ![Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
 
