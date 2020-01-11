@@ -52,69 +52,42 @@ To get the app to run on your local computer,I suggest you install git and creat
 
 install git on linux
 
-<code>
-  $ sudo apt-get update
-</code>
-<code>
-  $ sudo apt-get install git
-</code>
+> $ sudo apt-get update
+> $ sudo apt-get install git
 
 
 or dowmload the latest version of [Git for Windows installer](https://gitforwindows.org) and [Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
 
 configure your Git username and email using the following commands:
 
-<code>
-  git config --global user.name "YOUR USERNAME"
-</code>
-<code>
-  git config --global user.email "YOUR EMAIL"
-</code>
-
-
+> git config --global user.name "YOUR USERNAME"
+> git config --global user.email "YOUR EMAIL"
 
 clone this project repository and create a separate virtual environment:
 
-<code>
-  git clone https://github.com/prince381/tweet_analysis.git
-</code>
-<code>
-  cd tweet_analysis
-</code>
-<code>
-  python3 -m virtualenv venv
-</code>
+> git clone https://github.com/prince381/tweet_analysis.git
+> cd tweet_analysis
+> python3 -m virtualenv venv
 
 
 In UNIX systems:
 
-<code>
-  source venv/bin/activate
-</code>
-
+> source venv/bin/activate
 
 In windows:
 
-<code>
-venv\Scripts\activate
-</code>
-
+> venv\Scripts\activate
 
 
 To install all of the required packages to this environment,simply run
 
-<code>
-  pip install -r requirements.txt
-</code>
-
+> pip install -r requirements.txt
 
 and all the required pip packages,will be installed,and the app will be able to run.
 
 Run this app locally by:
 
-<code>
-  python app.py
-</code>
+> python app.py
 
 
 Open [http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
