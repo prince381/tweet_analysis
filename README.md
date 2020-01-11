@@ -51,21 +51,45 @@ Cited from: Ryan Mitchell – Collecting data from the modern web, O’Rielly Pu
 To get the app to run on your local computer,I suggest you install git and create a separate virtual environment running python3 for this app and install all of the required dependencies there.Run in the terminal/command prompt.
 
 install git on linux
-<script src="https://gist.github.com/prince381/f4a8d93b90d7887243d1f1a48e1cb2a6.js"></script>
+'''
+$ sudo apt-get update
+$ sudo apt-get install git
+'''
 
 or dowmload the latest version of ![Git for Windows installer](https://gitforwindows.org) and ![Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
 
 configure your Git username and email using the following commands.
-![](https://gist.github.com/prince381/90f0eb758d65a45350c5dd2413834826.js)
+'''
+git config --global user.name "YOUR USERNAME"
+git config --global user.email "YOUR EMAIL"
+'''
 
 clone this project repository and create a separate virtual environment.
-![](https://gist.github.com/prince381/b0122bf4663f8c294cf39eed58b854fc.js)
+'''
+git clone https://github.com/prince381/tweet_analysis.git
+cd tweet_analysis
+python3 -m virtualenv venv
+'''
+
+In UNIX systems:
+'''
+source venv/bin/activate
+'''
+
+In windows:
+'''
+venv\Scripts\activate
+'''
 
 To install all of the required packages to this environment,simply run
-![](https://gist.github.com/prince381/6bba4116b84a1ba4afdc154ee51dbf90.js)
+'''
+pip install -r requirements.txt
+'''
 and all the required pip packages,will be installed,and the app will be able to run.
 
 Run this app locally by
-![](https://gist.github.com/prince381/df581f75d6615c8778b84ebde34fe417.js)
+'''
+python app.py
+'''
 
 Open ![http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
