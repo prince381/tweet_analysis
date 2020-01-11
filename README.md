@@ -54,35 +54,50 @@ install git on linux
 <html>
   <code>
     $ sudo apt-get update
+  </code>
+  <code>
     $ sudo apt-get install git
   </code>
 </html>
 
-or dowmload the latest version of ![Git for Windows installer](https://gitforwindows.org) and ![Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
+or dowmload the latest version of [Git for Windows installer](https://gitforwindows.org) and [Git for Mac OS installer](https://sourceforge.net/projects/git-osx-installer/files/)
 
-configure your Git username and email using the following commands.
+configure your Git username and email using the following commands:
+
 <html>
   <code>
     git config --global user.name "YOUR USERNAME"
+  </code>
+  <code>
     git config --global user.email "YOUR EMAIL"
   </code>
 </html>
 
-clone this project repository and create a separate virtual environment.
+
+
+clone this project repository and create a separate virtual environment:
+
 <html>
   <code>
     git clone https://github.com/prince381/tweet_analysis.git
+  </code>
+  <code>
     cd tweet_analysis
+  </code>
+  <code>
     python3 -m virtualenv venv
   </code>
 </html>
 
+
 In UNIX systems:
+
 <html>
   <code>
     source venv/bin/activate
   </code>
 </html>
+
 
 In windows:
 <html>
@@ -91,19 +106,24 @@ In windows:
   </code>
 </html>
 
+
 To install all of the required packages to this environment,simply run
+
 <html>
   <code>
     pip install -r requirements.txt
   </code>
 </html>
+
 and all the required pip packages,will be installed,and the app will be able to run.
 
-Run this app locally by
+Run this app locally by:
+
 <html>
   <code>
     python app.py
   </code>
 </html>
 
-Open ![http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
+
+Open [http://127.0.0.1:8050/](http://127.0.0.1:8050/) in your browser.
