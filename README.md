@@ -11,7 +11,8 @@ python’s textblob module.
 ## Dashboard demo.
 
 ![](https://github.com/prince381/tweet_analysis/blob/master/twitter_dash.gif)
-
+### Project by: Prince Owusu
+[Email](powusu381@gmail.com) || [linkedIn](https://www.linkedin.com/in/prince-owusu-356914198?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2NYoXqMHQKOMp0yWSME5mQ%3D%3D) || [@iam_kwekhu](https://twitter.com/iam_kwekhu)
 
 # Textblob and Sentiment Analysis.
 
