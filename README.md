@@ -14,39 +14,6 @@ python’s textblob module.
 ### Project by: Prince Owusu
 [Email](powusu381@gmail.com) || [linkedIn](https://www.linkedin.com/in/prince-owusu-356914198?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2NYoXqMHQKOMp0yWSME5mQ%3D%3D) || [@iam_kwekhu](https://twitter.com/iam_kwekhu)
 
-# Textblob and Sentiment Analysis.
-
-Textblob provides an API that perform Natural Language Processing tasks like Parts-of-Speech tagging, Noun Phrase Extraction, Sentiment 
-analysis, Classification, Language detection and translation, etc. Textblob is built upon natural language toolkit (nltk).
-
-Sentiment analysis is an example of text classification which is one of the most important tasks in Natural Language Processing. Sentiment 
-analysis means analyzing the sentiment of a given text or document and categorizing the text/document into a specific class or category 
-(like positive, neutral, and negative). In other words, we can say that sentiment analysis classifies any particular document as positive, 
-negative or neutral. 
-
-# Web Scraping
-
-“ To those who have not developed the skill, computer programming can seem like a kind of magic. If programming is magic, then web 
-scraping is wizardry; that is, the application of magic for particularly impressive and useful — yet surprisingly effortless — feats. “    
-                    Ryan Mitchell
-                    
-
-## What is Web Scraping ?
-
-In theory, web scraping is the practice of gathering data through any means other than a program interacting with an API (or, obviously, 
-through a human using a web browser). This is most commonly accomplished by writing an automated program that queries a web server, 
-requests data (usually in the form of the HTML and other files that comprise web pages), and then parses that data to extract needed 
-information. In practice, web scraping encompasses a wide variety of programming techniques and technologies, such as data analysis and 
-information security.
-
-## Why Web Scraping ?
-
-Although browsers are handy for executing JavaScript, displaying images, and arranging objects in a more human-readable format (among 
-other things), web scrapers are excellent at gathering and processing large amounts of data (among other things). Rather than viewing 
-one page at a time through the narrow window of a monitor, you can view databases spanning thousands or even millions of pages at once.
-
-Cited from: Ryan Mitchell – Collecting data from the modern web, O’Rielly Publication
-
 # Run the app locally on your PC.
 
 To get the app to run on your local computer,I suggest you install git and create a separate virtual environment running python3 for this app and install all of the required dependencies there.Run in the terminal/command prompt.
