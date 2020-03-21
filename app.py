@@ -191,7 +191,7 @@ app.layout = html.Div(children=[
                              height=30,width=40,
                             style={'margin-left':15,
                                   'margin-right':15})
-                     ,'your recent tweets analysis dashboard'],style={'color':'white',
+                     ,'your recent tweets analyzer'],style={'color':'white',
                                                                       'fontSize':30})
             
         ],className='seven columns'),
